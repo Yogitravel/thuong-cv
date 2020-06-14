@@ -169,7 +169,7 @@ textarea:focus::-ms-placeholder {
 }
 
 input {
-	font-family: "Lato", sans-serif;
+	font-family: "Barlow Condensed", sans-serif;
 	font-size: 0.875em;
 	width: 470px;
 	height: 50px;
@@ -204,7 +204,7 @@ textarea {
 	outline: none;
 
 	color: #726659;
-	font-family: "Lato", sans-serif;
+	font-family: "Barlow Condensed", sans-serif;
 	font-size: 0.875em;
 
 	border: solid 1px #b3aca7;
@@ -226,7 +226,7 @@ textarea:hover {
 	padding: 0;
 	margin: -5px 0px 0px 0px;
 
-	font-family: "Lato", sans-serif;
+	font-family: "Barlow Condensed", sans-serif;
 	font-size: 0.875em;
 	color: #b3aca7;
 
@@ -384,5 +384,5 @@ section {
 	position: fixed;
 	/* position: sticky; */
 	z-index: 10;
-	width: 100vw;
+	width: 100%;
 }
