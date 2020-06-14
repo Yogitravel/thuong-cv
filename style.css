@@ -1,19 +1,18 @@
 .hey {
 	font-family: "Bad Script", cursive;
 	font-size: 200px;
-	margin-top: 20px;
-	padding-left: 80px;
+	padding-left: 30px;
 }
 .iamthuong {
 	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 60px;
 	margin-top: 50px;
-	padding-left: 80px;
+	padding-left: 30px;
 }
 .aboutthuong {
 	font-family: "Open Sans Condensed", sans-serif;
 	font-size: 30px;
-	padding-left: 80px;
+	padding-left: 0px;
 }
 
 .projects {
@@ -47,26 +46,22 @@
 	background-image: url("background1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-left: 70px;
 	padding-left: 150px;
 }
 .page2 {
 	background-image: url("background2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-left: 150px;
 }
 .page3 {
 	background-image: url("background3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-left: 150px;
 }
 .page4 {
 	background-image: url("bg2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-left: 150px;
 }
 
 .page {
@@ -378,4 +373,16 @@ textarea:hover {
 	.box3 {
 		margin-top: 80px;
 	}
+}
+section {
+	scroll-behavior: smooth;
+}
+.navbar {
+	font-family: "Barlow Condensed", sans-serif;
+	font-size: 20px;
+	top: 0px;
+	position: fixed;
+	/* position: sticky; */
+	z-index: 10;
+	width: 100vw;
 }
